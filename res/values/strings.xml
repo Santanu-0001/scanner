@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BallyFabs!</string>
+    <string name="app_name">BallyFabs Barcode Application</string>
+    <string name="barcode">Barcode</string>
+    <string name="shop">Shop</string>
+    <string name="price">Price</string>
+    <string name="planets_array1">Mode</string>
+    
+    <string-array name="planets_array">
+        <item>Stock</item>
+        <item>Sale</item>
+    </string-array>
+    
+    <string-array name="shop_array">
+    	<item>Select Shop Name</item>
+		<item>Ballyfabs-Kolkata</item>
+		<item>Ballyfabs International Limited</item>
+		<item>THE JUTE SHOP - KOLKATA</item>
+		<item>BALLYFABS - CHENNAI (OLD)</item>
+		<item>SILKLAND TRADING L.L.C.</item>
+		<item>THE JUTE SHOP(MAYAPUR)</item>
+		<item>FULCRUM CONSULTANTS (P) LTD</item>
+		<item>MISCELLANEOUS PARTY</item>
+		<item>R. R. TRADE LINKS</item>
+		<item>BALLYFABS (HO)</item>
+		<item>BALLYFABS - DELHI</item>
+		<item>OLD SOUTH CITY - KOLKATA</item>
+		<item>V. S. CORPORATION</item>
+		<item>SHED-1</item>
+		<item>SHED-2</item>
+		<item>THE JUTE SHOP - KIOSK NO. K-06, SILIGURI</item>
+		<item>THE JUTE SHOP- KORUM MALL</item>
+		<item>THE JUTE SHOP, CITY CENTRE NEWTOWN</item>
+		<item>SOUTH CITY -KOLKATA</item>
+		<item>THE JUTE SHOP - PARASDOWN TOWN</item>
+		<item>THE JUTE SHOP- SECTOR - V, BIDHAN NAGAR</item>
+		<item>THE JUTE SHOP- INORBIT MALL, MALAD</item>
+		<item>THE JUTE SHOP - HILAND PARK, KOLKATA</item>
+		<item>THE JUTE SHOP -  CR-2, NARIMAL POINT</item>
+		<item>THE JUTE SHOP - CITY CENTRE, SALTLAKE</item>
+		<item>THE JUTE SHOP - ISCON MEGA MALL</item>
+		<item>THE JUTE SHOP - HIMALAYA MALL</item>
+		<item>THE JUTE SHOP - PACIFIC MALL</item>
+		<item>THE JUTE SHOP - WEST GATE MALL</item>
+		<item>THE JUTE SHOP - SHIPRA MALL</item>
+		<item>THE JUTE SHOP - GALAXY MALL, ASANSOL</item>
+		<item>THE JUTE SHOP - TREASURE ISLAND, INDORE</item>
+		<item>THE JUTE SHOP - NAMAN MALL, INDORE</item>
+		<item>THE JUTE SHOP - OMAX MALL,PATIALA</item>
+		<item>THE JUTE SHOP - CROWN MALL, FARIDABAD</item>
+		<item>THE JUTE SHOP - CELEBRATION MALL, AMRITSAR</item>
+		<item>THE JUTE SHOP-  R MALL, MULUND</item>
+		<item>THE JUTE SHOP - ROYAL MEENAKSHI MALL</item>
+		<item>THE JUTE SHOP - CITY CENTRE MALL</item>
+		<item>THE JUTE SHOP - C-21 MALL, INDORE</item>
+		<item>THE JUTE SHOP - HOMELAND CITY MALL</item>
+		<item>THE JUTE SHOP, THE FORUM MALL</item>
+		<item>THE JUTE SHOP - MEGA MALL</item>
+		<item>THE JUTE SHOP - KESSEL MALL</item>
+		<item>THE JUTESHOP - GOPALAN INNOVATION</item>
+		<item>BALLYFABS - CHENNAI SHOP</item>
+		<item>THE JUTE SHOP - AMPA</item>
+		<item>THE JUTE SHOP - EXPRESS AVENUE</item>
+		<item>THE JUTE SHOP - AXIS</item>
+		<item>THE JUTE SHOP, GVK ONE MALL,</item>
+		<item>THE JUTE SHOP, VIVA COLLAGE MALL,</item>
+		<item>THE JUTE SHOP, Z SQUAR MALL</item>
+		<item>THE JUTE SHOP - R.K.MALL</item>
+		<item>THE JUTE SHOP - MAGNETO THE MALL,</item>
+		<item>THE JUTE SHOP - R CITY MALL</item>
+		<item>THE JUTE SHOP - CITI CENTRE MALL , MULTIPLEX</item>
+		<item>THE JUTE SHOP - CITY MALL 36,</item>
+		<item>THE JUTE SHOP - D.B.MALL,</item>
+		<item>THE JUTE SHOP - BROOKEFIELDS</item>
+		<item>THE JUTE SHOP - KALYAN</item>
+		<item>THE JUTE SHOP - RAHULRAJ MALL, SURAT</item>
+		<item>THE JUTE SHOP - PROZONE MALL</item>
+		<item>THE JUTE SHOP - SPECTRUM MALL</item>
+		<item>ONLINE SALES WAREHOUSE</item>
+		<item>THE JUTE SHOP - NEPTUNE MAGNET MALL</item>
+		<item>THE JUTE SHOP - AMANORA TOWN</item>
+		<item>THE JUTE SHOP- JUNCTION MALL</item>
+		<item>THE JUTE SHOP - KANKARIA ESTATE</item>
+		<item>THE JUTE SHOP - EMPRESS MALL, NAGPUR</item>
+		<item>THE JUTE SHOP - GAURAV TOWER, RAJASTHAN</item>
+		<item>THE JUTE SHOP - CELEBRATION MALL UDAIPUR</item>
+		<item>THE JUTE SHOP - PARK STREET</item>
+		<item>THE JUTE SHOP - LUCKNOW</item>
+		<item>THE JUTE SHOP - MYSORE</item>
+    </string-array>
+
+</resources>

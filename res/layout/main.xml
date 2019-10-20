@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/barcode_bg" 
+    >
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:paddingTop="50dip"
+    android:paddingLeft="10dip">
+		<TextView android:text="@string/barcode" android:textColor="@color/col1" android:textStyle="bold" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical"></TextView>
+	    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left"
+	    
+	    android:paddingLeft="10dip"
+	    android:paddingRight="100dip"
+	    android:layout_weight="1">
+	    <TextView android:text="" android:textColor="@color/col1" android:textStyle="bold" android:id="@+id/textView50" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical"></TextView>
+	    <!-- <EditText android:text=""  android:inputType="textCapCharacters" android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_width="fill_parent"></EditText> -->
+	    </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left"
+	    android:paddingTop="5dip"
+	    android:paddingLeft="10dip"
+	    android:paddingRight="10dip">
+		<!-- <TextView android:text="@string/price" android:textColor="@color/col1" android:textStyle="bold" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical"></TextView>
+	     -->
+	    <ImageButton 
+				    android:layout_height="wrap_content" 
+				    android:src="@drawable/send2" 
+				    android:layout_width="wrap_content" 
+				    android:id="@+id/button1"
+				    
+				    android:clickable="false"></ImageButton>
+	    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left"
+	    
+	    
+	    android:layout_weight="1.5">
+	    <!-- 
+	    android:paddingLeft="30dip"
+	    android:paddingRight="20dip"
+	    
+	    
+	    <EditText 
+	    android:text=""  
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/editText2" 
+	    android:layout_width="fill_parent"
+	    android:inputType="numberDecimal"
+	    ></EditText> -->
+	    
+	    <Spinner 
+	    android:id="@+id/spinner1" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:layout_gravity="center_vertical"
+	    android:prompt="@string/planets_array1">
+	    </Spinner></LinearLayout>
+	        <LinearLayout
+			    android:orientation="horizontal"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="right"
+			    android:paddingLeft="10dip"
+			    android:paddingRight="10dip"
+			    >
+	    
+				    <ImageButton 
+				    android:layout_height="wrap_content" 
+				    android:src="@drawable/scanner" 
+				    android:layout_width="wrap_content" 
+				    android:id="@+id/scan"
+				    
+				    android:clickable="false"></ImageButton>
+				    <!-- android:background="@null" -->
+			</LinearLayout>
+    </LinearLayout>
+    
+    
+    
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    >
+    <!-- <TextView 
+    android:text="@string/shop" 
+    android:textColor="@color/col1" 
+    android:textStyle="bold" 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_vertical"></TextView> -->
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    >
+    	<Spinner 
+	    android:id="@+id/spinner2" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="center_horizontal"
+	    android:prompt="@string/planets_array1">
+	    </Spinner>
+    </LinearLayout>
+    </LinearLayout>
+    
+    
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    >
+	<!-- <Button android:background="@drawable/submit" android:textColor="@color/col1" android:textStyle="bold" android:text="Send" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button> -->    
+		<!-- <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp"
+	    >
+			
+	    <Button android:background="@drawable/submit" android:textColor="@color/col1" android:textStyle="bold" android:text="Ok" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:background="@drawable/submit" android:textColor="@color/col1" android:textStyle="bold" android:text="Cancel" android:id="@+id/edit" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:background="@drawable/plus"  android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:text="   scan   " android:textColor="@color/col1" android:id="@+id/scan"></Button>
+	    </LinearLayout> -->
+    </LinearLayout>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:paddingTop="10dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="10dip"
+    >
+        
+        
+    <ListView 
+    android:id="@android:id/list" 
+    android:background="@android:color/transparent" 
+    android:cacheColorHint="#00000000"
+    android:clickable="true"
+    android:textColor="@color/col1"
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent">
+    </ListView>
+    </LinearLayout>
+ </LinearLayout>
